@@ -1,0 +1,17 @@
+constants shiny_purple 0.3 0.2 0.8 0.3 0 0 0.3 0.2 0.8
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+push
+move 300 250 0
+rotate x 30
+rotate y 30
+box -30 100 20 60 250 40
+box -55 -150 30 85 5 60
+push
+move -10 125 0
+sphere dull_yellow 0 0 0 60
+sphere dull_yellow 0 55 25 20
+sphere dull_yellow 0 55 -25 20
+sphere shiny_purple -10 55 25 15
+sphere shiny_purple -10 55 -25 15
+save "pez.png"
